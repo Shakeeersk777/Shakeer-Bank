@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Account login</title>
+     <link rel="stylesheet" href="./LoginPage.css">
+     <link rel="icon" href="./bankicon.png">
+</head>
+<body>
+    <div id="container">
+            <img src="./shakeerbank.jpg" id="bank-name">
+        <div id="form">
+            <h1 id="head"> Enter account details</h1>
+            <input type="email" placeholder="Enter email address" id="mail"><br><br>
+            <input type="password" placeholder="Enter password" id="password"><br><br>
+            <input type="submit" id="submit" onclick="fun()" value="SUBMIT">
+            <p><a href="" id="forget-password"> Forget Password? </a></p>
+            <p id="result"></p>
+            <a href="./CreateAccount.html" target="_blank"><input type="button" id="create-acct" value="CREATE ACCOUNT"></a>
+        </div>
+    </div>
+    <script>
+        var mail="shakeer@gmail.com";
+        var password="12345";
+        function fun()
+        {
+            var userEnteredEmail=document.getElementById("mail").value;
+            var userEnteredPassword=document.getElementById("password").value;
+            if(userEnteredEmail==mail && userEnteredPassword==password)
+            {
+                document.getElementById("result").innerHTML="Successfully login 😊";
+                document.getElementById("result").style.color="green";
+                document.getElementById("mail").style.borderColor="black";
+                document.getElementById("password").style.borderColor="black";
+            }
+            else if(userEnteredEmail==mail && userEnteredPassword!=password)
+            {
+                document.getElementById("result").innerHTML="Incorrect password 🤨"; 
+                document.getElementById("result").style.color="red"; 
+                document.getElementById("password").style.borderColor="red";
+            }
+            else if(userEnteredEmail!=mail && userEnteredPassword==password)
+            {
+                document.getElementById("result").innerHTML="Incorrect email 🤨"; 
+                document.getElementById("result").style.color="red"; 
+                document.getElementById("mail").style.borderColor="red";
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="Invalid email id and password 😏";
+                document.getElementById("result").style.color="red"; 
+                document.getElementById("mail").style.borderColor="red";
+                document.getElementById("password").style.borderColor="red";
+            }
+        }
+    </script>
+</body>
+</html>
