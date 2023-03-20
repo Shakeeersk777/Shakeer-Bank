@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    margin: 0%;
+    padding-top: 10px;
+}
+#bank-name{
+    height: 60px;
+    width: 350px;
+    float: left;
+    margin-left: 30px;
+
+}
+#address{
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    line-height: 20px;
+    color: navy;
+}
+#nav-bar{
+    border: none;
+    background-color: lightskyblue;
+    position: sticky;
+    top: 4px;
+    background-image: url(./thur.jpg);
+    border-radius: 7px;
+    width: 99%;
+    margin-left: 10px;
+    
+}
+#welcome{
+    font-weight: bold;
+    color: white;
+}
+#search-box{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid gray;
+    border-style: groove;
+}
+#search{
+    color: white;
+    height: 20px;
+    background-color:blue;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 5px;
+}
+#search:hover{
+    color: blue;
+    background-color: white;
+    transition: 0.15s;
+}
+#login-button{
+    background-color:dodgerblue;
+    height: 28px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 80px;
+    padding: 5px;
+}
+#login-button:hover{
+    color: blue;
+    background-color: white;
+    transition: 0.15s;
+}
+#login-type{
+    position: absolute;
+    left: 56.5%;
+    height: 80px;
+    background-color: white;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+#login-type:hover{
+    cursor: pointer;
+}
+#sav-acct{
+   height: 30px;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   align-items: center;
+}
+#sav-acct:hover{
+    background-color: burlywood;
+    color: black;
+    border-radius: 5px;
+}
+#cur-acct{
+   height: 30px;
+   width: 100%;
+   height: 30px;
+   display: flex;
+   align-items: center;
+}
+#cur-acct:hover{
+    background-color: burlywood;
+    color: black;
+    border-radius: 5px;
+}
+#create-account{
+    background-color:dodgerblue;
+    float: right;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+#create-account:hover{
+    color: blue;
+    background-color: white;
+    transition: 0.15s;
+}
+.button-color{
+    color: white;
+}
+#content1{
+    height: 500px;
+    width: 99%;
+    margin: 5px;
+    border: none;
+    
+}
+#home-loan{
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+}
+#invest-bank{
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+}
+#shop{
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+}
+#borrow{
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+}
+.features{
+    font-weight: bold;
+}
+#news{
+    background-color:lightskyblue;
+    color: navy;
+    font-weight: bold;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.a{
+    height: 100px;
+    width: 19%;
+    background-color:steelblue;
+    float: left;
+}
+.b{
+    height: 100px;
+    width: 1%;
+    background-color:aliceblue;
+    float: left;
+}
+.c{
+    height: 100px;
+    width: 14%;
+    background-color:lightskyblue; 
+    float: left;
+    text-align: center;
+}
+.d{
+    height: 100px;
+    width: 20%;
+    background-color:steelblue;
+    float: left;
+}
+#footer{
+    background-color:rgb(0, 0, 0);
+    height: 350px;
+    width:100%;
+    margin: 2px;
+}
+#about-us{
+    float: left; 
+    color: white; 
+    font-size:larger;
+    font-weight: bolder;
+}
+#social{
+   float: right;
+}
+#social-media{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+#fb{
+   height: 40px;
+   width: 70px;
+}
+#twitter{
+    height: 40px;
+   width: 40px;
+}
+#youtube{
+    height: 80px;
+   width: 100px;
+   position: relative;
+   top: 24px;
+   right: 20px;
+}
+/* #offer{
+    height: 200px;
+    width: 250px;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    border-radius: 25px;
+    background-color: aquamarine;
+    color: black;
+    border: 3px solid  white;
+    border-style: groove;
+}
+#offer-head{
+    background-color: black;
+    color: white;
+} */
